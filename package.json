@@ -1,0 +1,20 @@
+{
+    "name": "change-the-clippath",
+    "version": "0.0.1",
+    "description": "change-the-clippath",
+    "author": "whishtQ800",
+    "main": "src/main/main.js",
+    "main-menu": {
+        "i18n:MAIN_MENU.package.title/更换clip路径/开始更换": {
+            "message": "change-the-clippath:start"
+        }
+    },
+    "panel": {
+        "main": "panel/index.js",
+        "type": "dockable",
+        "title": "change-the-clippath",
+        "width": 400,
+        "height": 300
+    },
+    "scene-script": "src/main/scene-walker.js"
+}
